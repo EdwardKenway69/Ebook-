@@ -1,1 +1,25 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        :root {
+            --navy: #1e3a5f;
+            --blue: #4a90e2;
+            --beige: #f5f1e8;
+            --gold: #d4af37;
+            --white: #ffffff;
+            --text: #333333;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
