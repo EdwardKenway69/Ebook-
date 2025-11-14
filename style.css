@@ -1,1 +1,52 @@
-
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #2f3136;
+  margin: 0;
+}
+header {
+  background: #0073e6;
+  color: #fff;
+  padding: 2em 1em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.pdf-list {
+  list-style: none;
+  padding: 0;
+}
+.pdf-list li {
+  background: #fff;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-between;
+}
+.pdf-list span {
+  flex: 1;
+}
+.pdf-list a {
+  text-decoration: none;
+  color: #0073e6;
+  background: #e6f0ff;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.pdf-list a:hover {
+  background: #0073e6;
+  color: #fff;
+}
+footer {
+  text-align: center;
+  margin: 2em 0 1em 0;
+  color: #aaa;
+}
